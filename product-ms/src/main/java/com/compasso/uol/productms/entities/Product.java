@@ -9,10 +9,6 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.Table;
 
-import org.springframework.http.HttpStatus;
-
-import com.compasso.uol.productms.exceptions.ExceptionResponse;
-
 @Entity
 @Table(name="tb_role")
 public class Product implements Serializable {
